@@ -1,0 +1,215 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1441px) {
+    .section {
+        padding: 100px 10%;
+    }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 1350px) {
+    .section {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .carousel {
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .category--theme--women {
+        background-position: 5% bottom;
+    }
+    .category--theme--men {
+        background-position: 95% top;
+    }
+    .category--theme--backpacks {
+        background-position: 5% top;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .carousel {
+        padding: 0 15%;
+    }
+    .section--theme--offers {
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .carousel {
+        padding: 0 15%;
+    }
+    .category--theme--women {
+        background-position: 0% bottom;
+    }
+    .category--theme--men {
+        background-position: 100% top;
+    }
+    .category--theme--backpacks {
+        background-position: 0% top;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .section {
+        padding: 25px 0
+    }
+    .carousel {
+        padding: 0 5%;
+    }
+
+    .category {
+        height: 250px;
+    }
+
+    .welcome__text {
+        width: 80%;
+        padding: 0;
+    }
+    .header--theme--action {
+        width: 85%;
+    }
+    .hero-image {
+        height: 450px;
+    }
+    .review__text {
+        width: 75%;
+    }
+    .slick-prev {
+        left: 7%;
+    }
+    .slick-next {
+        right: 7%;
+    }
+}
+
+@media only screen and (max-width: 850px) {}
+
+@media only screen and (max-width: 786px) {
+    .hero-image {
+        padding-top: 75px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 56px;
+    }
+    .category {
+        height: 200px;
+    }
+    .section--theme--action {
+        background-image: none;
+    }
+    .review {
+        padding-bottom: 25px;
+    }
+    .review__item {
+        margin-bottom: 50px;
+    }
+    .review__text {
+        width: 90%;
+    }
+    .slick-prev {
+        width: 40px;
+        height: 40px;
+        left: 35%;
+        bottom: 0;
+        top: auto;
+    }
+    .slick-next {
+        width: 40px;
+        height: 40px;
+        right: 35%;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .category--theme--women {
+        background: #ff7e5f;
+        background: -webkit-gradient(linear, left top, right top, from(#ff7e5f), to(#feb47b));
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+    }
+
+    .category--theme--men {
+        background: #1f1c2c;
+        background: -webkit-gradient(linear, left top, right top, from(#1f1c2c), to(#928dab));
+        background: linear-gradient(to right, #1f1c2c, #928dab);
+    }
+
+    .category--theme--backpacks {
+        background: #11998e;
+        background: -webkit-gradient(linear, left top, right top, from(#38ef7d), to(#11998e));
+        background: linear-gradient(to right, #38ef7d, #11998e);
+    }
+    .hero-image {
+        height: 400px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 550px) {
+    .slick-prev {
+        left: 20%;
+    }
+    .slick-next {
+        right: 20%;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
