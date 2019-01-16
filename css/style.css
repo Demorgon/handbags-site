@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     color: var(--grey);
@@ -67,7 +71,7 @@ svg {
     background-color: var(--grey);
     color: var(--white);
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     position: fixed;
@@ -186,14 +190,14 @@ svg {
 }
 
 .welcome__header {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: 15px 0;
     color: var(--grey);
     font-weight: 900;
 }
 
 .welcome__semi-header {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 15px 0;
     color: var(--grey);
     font-weight: 100;
@@ -201,7 +205,7 @@ svg {
 
 .welcome__text {
     width: 80%;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 20px 0;
     color: var(--semigrey);
     font-weight: 100;
@@ -217,7 +221,7 @@ svg {
     background-image: url(../img/handbag.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0%;
+    background-position: 20%;
     text-align: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -229,19 +233,24 @@ svg {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding-left: 25%;
 }
 
 .offers-header {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 900;
     margin-bottom: 50px;
+}
+
+.list {
+    display: inline-block;
 }
 
 .list__item {
     color: var(--brown);
     margin-bottom: 15px;
     list-style-position: inside;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
@@ -249,7 +258,7 @@ svg {
 .header {
     text-align: center;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 4.5rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -270,8 +279,10 @@ svg {
 
 .card {
     background-color: var(--white);
+    /*
     -ms-flex-preferred-size: 270px;
     flex-basis: 270px;
+*/
     padding-top: 10px;
     margin: 20px;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -340,7 +351,7 @@ svg {
 .card__price {
     margin-bottom: 10px;
     color: var(--brown);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -358,7 +369,7 @@ svg {
     background-color: var(--brown);
     color: var(--white);
     padding: 5px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -396,8 +407,8 @@ svg {
 
 .category--theme--women {
     background: #ff7e5f;
-    background: url(../img/woman-section-bg.png), -webkit-gradient(linear, left top, right top, from(#ff7e5f), to(#feb47b));
-    background: url(../img/woman-section-bg.png), linear-gradient(to right, #ff7e5f, #feb47b);
+    background: -webkit-gradient(linear, left top, right top, from(#ff7e5f), to(#feb47b));
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
 
     background-position: 10% bottom;
     background-repeat: no-repeat;
@@ -406,8 +417,8 @@ svg {
 
 .category--theme--men {
     background: #1f1c2c;
-    background: url(../img/man-section-bg.png), -webkit-gradient(linear, left top, right top, from(#1f1c2c), to(#928dab));
-    background: url(../img/man-section-bg.png), linear-gradient(to right, #1f1c2c, #928dab);
+    background: -webkit-gradient(linear, left top, right top, from(#1f1c2c), to(#928dab));
+    background: linear-gradient(to right, #1f1c2c, #928dab);
     background-repeat: no-repeat;
     background-position: 90% top;
     background-size: auto 100%;
@@ -415,8 +426,8 @@ svg {
 
 .category--theme--backpacks {
     background: #11998e;
-    background: url(../img/backpack-section-bg.png), -webkit-gradient(linear, left top, right top, from(#38ef7d), to(#11998e));
-    background: url(../img/backpack-section-bg.png), linear-gradient(to right, #38ef7d, #11998e);
+    background: -webkit-gradient(linear, left top, right top, from(#38ef7d), to(#11998e));
+    background: linear-gradient(to right, #38ef7d, #11998e);
     background-position: 10% top;
 
     background-repeat: no-repeat;
@@ -478,7 +489,7 @@ svg {
 
 .review__text {
     width: 60%;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: white;
     color: var(--white);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -488,7 +499,7 @@ svg {
 
 .review__name {
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
@@ -649,7 +660,7 @@ a svg:hover #whatsapp {
 
 .popup-window__text {
     color: var(--grey);
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 25px;
 }
 
@@ -707,7 +718,7 @@ a svg:hover #whatsapp-popup {
     position: absolute;
     top: 5px;
     right: 15px;
-    font-size: 28px;
+    font-size: 1.75rem;
     z-index: 9999;
 }
 
@@ -715,7 +726,7 @@ a svg:hover #whatsapp-popup {
     position: absolute;
     top: 5px;
     right: 15px;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #e83c3c;
     cursor: pointer;
 }

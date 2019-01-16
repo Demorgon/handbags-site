@@ -1,19 +1,28 @@
-/*==========  Desktop First Method  ==========*/
-
-/* Large Devices, Wide Screens */
-
 @media only screen and (min-width: 1441px) {
     .section {
         padding: 100px 10%;
     }
+    .section--theme--offers {
+        padding-left: 25%;
+    }
 }
 
-/* Medium Devices, Desktops */
+@media only screen and (min-width: 1601px) {
+    html {
+        font-size: 20px;
+    }
+    .section {
+        padding: 100px 15% 100px 15%;
+    }
+}
 
 @media only screen and (max-width: 1350px) {
     .section {
         padding-left: 75px;
         padding-right: 75px;
+    }
+    .section--theme--offers {
+        padding-left: 25%;
     }
 }
 
@@ -24,6 +33,9 @@
     }
     .carousel {
         padding: 0 15%;
+    }
+    .section--theme--offers {
+        padding-left: 25%;
     }
 }
 
@@ -41,6 +53,9 @@
     .category--theme--backpacks {
         background-position: 5% top;
     }
+    .section--theme--offers {
+        padding-left: 25%;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -53,6 +68,7 @@
     }
     .section--theme--offers {
         background-image: none;
+        padding-left: inherit;
     }
 }
 
@@ -116,11 +132,9 @@
     }
 }
 
-/* Small Devices, Tablets */
-
 @media only screen and (max-width: 768px) {
     .header {
-        font-size: 56px;
+        font-size: 3.5rem;
     }
     .category {
         height: 200px;
@@ -176,8 +190,6 @@
     }
 }
 
-/* Extra Small Devices, Phones */
-
 @media only screen and (max-width: 550px) {
     .slick-prev {
         left: 20%;
@@ -186,30 +198,3 @@
         right: 20%;
     }
 }
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 320px) {}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-
-@media only screen and (min-width: 320px) {}
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {}
-
-/* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {}
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {}
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1200px) {}
