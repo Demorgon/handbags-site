@@ -2,6 +2,7 @@
     .section {
         padding: 100px 10%;
     }
+
     .section--theme--offers {
         padding-left: 25%;
     }
@@ -11,6 +12,7 @@
     html {
         font-size: 20px;
     }
+
     .section {
         padding: 100px 15% 100px 15%;
     }
@@ -21,6 +23,7 @@
         padding-left: 75px;
         padding-right: 75px;
     }
+
     .section--theme--offers {
         padding-left: 25%;
     }
@@ -31,9 +34,11 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+
     .carousel {
         padding: 0 15%;
     }
+
     .section--theme--offers {
         padding-left: 25%;
     }
@@ -44,15 +49,19 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .category--theme--women {
         background-position: 5% bottom;
     }
+
     .category--theme--men {
         background-position: 95% top;
     }
+
     .category--theme--backpacks {
         background-position: 5% top;
     }
+
     .section--theme--offers {
         padding-left: 25%;
     }
@@ -63,9 +72,11 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .carousel {
         padding: 0 15%;
     }
+
     .section--theme--offers {
         background-image: none;
         padding-left: inherit;
@@ -77,15 +88,19 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .carousel {
         padding: 0 15%;
     }
+
     .category--theme--women {
         background-position: 0% bottom;
     }
+
     .category--theme--men {
         background-position: 100% top;
     }
+
     .category--theme--backpacks {
         background-position: 0% top;
     }
@@ -95,6 +110,7 @@
     .section {
         padding: 25px 0
     }
+
     .carousel {
         padding: 0 5%;
     }
@@ -107,18 +123,23 @@
         width: 80%;
         padding: 0;
     }
+
     .header--theme--action {
         width: 85%;
     }
+
     .hero-image {
         height: 450px;
     }
+
     .review__text {
         width: 75%;
     }
+
     .slick-prev {
         left: 7%;
     }
+
     .slick-next {
         right: 7%;
     }
@@ -130,27 +151,47 @@
     .hero-image {
         padding-top: 75px;
     }
+
+    .nav__contacts {
+        display: none;
+    }
+
+    .nav-section {
+        padding: 10px 50px;
+    }
+
+    .nav {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin: 5px 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .header {
         font-size: 3.5rem;
     }
+
     .category {
         height: 200px;
     }
+
     .section--theme--action {
         background-image: none;
     }
+
     .review {
         padding-bottom: 25px;
     }
+
     .review__item {
         margin-bottom: 50px;
     }
+
     .review__text {
         width: 90%;
     }
+
     .slick-prev {
         width: 40px;
         height: 40px;
@@ -158,6 +199,7 @@
         bottom: 0;
         top: auto;
     }
+
     .slick-next {
         width: 40px;
         height: 40px;
@@ -185,6 +227,7 @@
         background: -webkit-gradient(linear, left top, right top, from(#38ef7d), to(#11998e));
         background: linear-gradient(to right, #38ef7d, #11998e);
     }
+
     .hero-image {
         height: 400px;
     }
@@ -194,7 +237,12 @@
     .slick-prev {
         left: 20%;
     }
+
     .slick-next {
         right: 20%;
+    }
+
+    .nav-section {
+        padding: 10px 10px;
     }
 }
