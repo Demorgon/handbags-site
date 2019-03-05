@@ -83,10 +83,10 @@ svg {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-around;
-    /*    padding: 10px 50px;*/
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
     margin: 5px 0;
+    max-width: 1920px;
 }
 
 .nav__item {
@@ -736,4 +736,15 @@ a svg:hover #whatsapp-popup {
 
 article {
     width: 100%;
+}
+
+.content {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
 }
